@@ -1,0 +1,28 @@
+:root {
+  --size: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+/*  flex */
+.container {
+  display: flex;
+  justify-content: center;
+}
+.box1,
+.box2,
+.box3 {
+  width: var(--size);
+  height: var(--size);
+}
+/* colores */
+.box1 {
+  background-color: lightcoral;
+}
+
+.box2 {
+  background-color: rgb(128, 240, 234);
+}
+
+.box3 {
+  background-color: rgb(132, 240, 128);
+}

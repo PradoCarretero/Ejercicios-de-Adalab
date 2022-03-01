@@ -1,0 +1,41 @@
+:root {
+}
+
+.line {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.line-1 {
+  background-color: black;
+  color: white;
+  padding: 30px;
+}
+
+.nav-2 {
+  padding: 30px;
+  width: 40%;
+}
+
+.menu-li {
+  display: flex;
+  list-style: none;
+}
+
+.body {
+  padding: 40%;
+}
+
+.texto {
+  text-align: center;
+}
+
+.link {
+  padding: 3px;
+}
+
+.texto-1 {
+  display: flex;
+  align-items: center;
+}

@@ -1,0 +1,34 @@
+body {
+  width: 100%;
+  max-width: 960px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.item {
+  justify-content: center;
+}
+.header {
+  background-color: orange;
+  width: 100%;
+}
+
+.main {
+  background-color: rgb(173, 217, 241);
+  width: 60%;
+}
+.aside-1 {
+  background-color: yellow;
+  width: 20%;
+}
+
+.aside-2 {
+  background-color: rgb(255, 0, 128);
+  width: 20%;
+}
+
+.footer {
+  background-color: green;
+  width: 100%;
+}

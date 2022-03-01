@@ -1,0 +1,82 @@
+body {
+  background: grey;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0 25px;
+}
+/* 480 PX */
+@media all and (min-width: 480px) {
+  body {
+    margin-right: 48px;
+    margin-left: 0px;
+    background-color: aqua;
+  }
+
+  .links {
+    float: left;
+    width: 30%;
+  }
+
+  .article {
+    float: right;
+    width: 60%;
+  }
+  .related {
+    float: right;
+    width: 60%;
+  }
+
+  .box {
+    width: 50%;
+    height: 150px;
+    float: right;
+    background-color: orange;
+  }
+}
+/* 1000 PX */
+@media all and (min-width: 1000px) {
+  body {
+    margin-right: 0px;
+    margin-left: 0px;
+    background-color: aqua;
+  }
+
+  .links {
+    float: left;
+    width: 20%;
+  }
+
+  .article {
+    float: none;
+    margin: 0 30%;
+    width: 20%;
+  }
+  .related {
+    float: right;
+    /*     position: absolute;
+    top: 0;
+    right: 0; */
+    width: 10%;
+  }
+
+  .box {
+    width: 50%;
+    height: 150px;
+    float: right;
+
+    background-color: orange;
+  }
+}
+
+/* PROPIEDADES  */
+
+.links {
+  background-color: green;
+}
+
+.article {
+  background-color: yellow;
+}
+
+.related {
+  background-color: rgb(71, 71, 71);
+}

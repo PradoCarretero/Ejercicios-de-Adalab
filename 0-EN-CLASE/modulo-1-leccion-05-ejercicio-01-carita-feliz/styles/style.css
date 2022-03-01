@@ -1,0 +1,60 @@
+.face {
+  font-size: 48px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  border: solid 5px darkcyan;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  color: darkcyan;
+  /*   text-align: center;
+  line-height: 80px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* TRANSFORM */
+  transform: scale(2) translate(40px, 30px);
+}
+
+.mama {
+  border: solid 3px red;
+}
+
+.hija {
+  border: solid 3px blue;
+  position: absolute;
+}
+
+.picture {
+  width: 200px;
+}
+
+.caption {
+  position: absolute;
+  bottom: 15px;
+  border: solid 2px black;
+  left: 50%;
+  transform: translate(-50%, 0);
+  background-color: white;
+  z-index: 1;
+}
+
+.container {
+  position: relative;
+  border: ridge 10px;
+  width: 200px;
+}
+
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 99;
+  width: 100%;
+  padding: 20px;
+  background-color: darkcyan;
+  color: white;
+}
+
+.main {
+  transform: translateY(70px);
+}

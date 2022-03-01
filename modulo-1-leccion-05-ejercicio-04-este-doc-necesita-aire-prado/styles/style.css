@@ -1,0 +1,7 @@
+.texto {
+  width: 86vw;
+  max-width: 600px;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, 0%);
+}

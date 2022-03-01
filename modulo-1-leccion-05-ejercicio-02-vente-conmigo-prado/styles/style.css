@@ -1,0 +1,11 @@
+.cabecera {
+  background-color: purple;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+.texto {
+  float: left;
+  position: relative;
+}
