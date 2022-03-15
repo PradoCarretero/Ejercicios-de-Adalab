@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="reset" href="./styles/reset.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <title>Formulario</title>
+  </head>
+
+  <body>
+    <form action="https://adalab-server-form.herokuapp.com" method="post">
+      <label for="firstName">Nombre</label>
+      <input id="firstName" type="text" name="firstName" required />
+      <label for="surname">Apellidos</label>
+      <input id="surname" type="text" name="surname" />
+      <label for="email">Correo electrónico</label>
+      <input id="email" type="email" name="email" required />
+      <label for="calle">Calle</label>
+      <input id="calle" type="text" name="calle" required />
+
+      <label for="ciudad">Ciudad</label>
+      <input id="ciudad" type="text" name="ciudad" value="Madrid" required />
+
+      <label for="provincia">Provincia</label>
+      <input
+        id="provincia"
+        type="text"
+        name="provincia"
+        value="España"
+        required
+      />
+
+      <label for="país">País</label>
+      <input id="país" type="text" name="país" required />
+
+      <label for="dni">Dni</label>
+      <input id="dni" type="text" name="dni" required />
+
+      <label for="telefono">Teléfono</label>
+      <input id="telefono" type="telephone" name="telefono" required />
+
+      <label for="contraseña">Contraseña</label>
+      <input id="contraseña" type="password" name="contraseña" required />
+
+      <label for="confirmarcontraseña">Confirmar Contraseña</label>
+      <input
+        id="confirmarcontraseña"
+        type="password"
+        name="confirmarcontraseña"
+        required
+      />
+
+      <input type="submit" vañue="Enviar" />
+    </form>
+  </body>
+</html>

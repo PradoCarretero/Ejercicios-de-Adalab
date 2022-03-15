@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/main.css" />
+    <title>Formulario</title>
+  </head>
+
+  <body>
+    <header class="header">
+      <h1 class="title">Ejercicio formularios</h1>
+    </header>
+    <main>
+      <form action="https://adalab-server-form.herokuapp.com/" method="post">
+        <fieldset>
+          <div>
+            <label for="nombre">Nombre:</label>
+            <input
+              id="nombre"
+              name="nombre"
+              type="text"
+              placeholder="P.ej: Maricarmen"
+              disabled
+            />
+          </div>
+          <div>
+            <label for="email">Email</label>
+            <input
+              id="email"
+              name="email"
+              type="email"
+              placeholder="email@servidor.com"
+              required
+            />
+          </div>
+          <div>
+            <label for="telephone">Teléfono</label>
+            <input
+              id="telephone"
+              name="telephone"
+              type="phone"
+              placeholder="XXX-XX-XX-XX"
+              patter="/^\+?(\d.*){3,}$/"
+            />
+          </div>
+          <div>
+            <label for="password">Contraseña</label>
+            <input
+              id="password"
+              name="password"
+              type="password"
+              placeholder="Escribe tu contraseña"
+            />
+          </div>
+          <div>
+            <label for="age">Edad</label>
+            <input
+              id="age"
+              name="age"
+              type="number"
+              placeholder="P.ej 18"
+              min="0"
+              max="99"
+            />
+          </div>
+          <!-- COPIA PEGA -->
+          <div>
+            <label for="XXXXXXXXXXXXXXXXXXXXXXXXXXXXXxxx"
+              >JJJJJJJJJJJJJJJJJJ</label
+            >
+            <input
+              id="XXXXXXXXXXXXXXXXXXXXXXXXXXXXXxxx"
+              name="XXXXXXXXXXXXXXXXXXXXXXXXXXXXXxxx"
+              type="OOOOOOOOOOOOOOOOOOOOOO"
+              placeholder="BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB"
+            />
+          </div>
+          <div>
+            <label for="story">Cuéntame tu historia...</label>
+            <textarea name="story" id="story" cols="30" rows="10"></textarea>
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <legend>Datos de Compra</legend>
+          <div>
+            <label for="month">Mes de nacimiento</label>
+            <select name="month" id="month">
+              <option disabled selected>Escoge una opción</option>
+              <option value="january">Enero</option>
+              <option value="februry">Febrero</option>
+              <option value="march">Marzo</option>
+            </select>
+          </div>
+          <div>
+            <p>Método de pago</p>
+            <label for="typecard">Tarjeta de crédito</label>
+            <input id="typecard" name="paymenttype" type="radio"
+            value="paymenttype-card />
+
+            <label for="typepal">Paypal</label>
+            <input id="typepal" name="paymenttype" type="radio"
+            value="paymenttype-pal />
+
+            <label for="typetransfer">Transferencia</label>
+            <input id="typetransfer" name="paymenttype" type="radio"
+            value="paymenttype-transfer />
+          </div>
+
+          <div>
+            <p>Facturación</p>
+            <input
+              type="checkbox"
+              name="invoicetype"
+              id="pdfinvoice"
+              value="pdfinvoice"
+            />
+            <label for="ticket">Enviar ticket</label>
+
+            <input
+              type="checkbox"
+              name="invoicetype"
+              id="mailinvoice"
+              value="mailinvoice"
+            />
+            <label for="mailinvoice">Enviar ticket</label>
+          </div>
+
+          <div>
+            <label for="creditcard">Tarjeta de crédito:</label>
+            <input
+              id="creditcard"
+              type="text"
+              name="creditcard"
+              placeholder="XXXX-XXXX-XXXX-XXXX"
+            />
+          </div>
+        </fieldset>
+
+        <!--INPUT+++++ type=search type=url type="color" type="file" type="range" type="reset"-->
+        <input type="submit" value="Mándalo ya!" />
+      </form>
+    </main>
+  </body>
+</html>

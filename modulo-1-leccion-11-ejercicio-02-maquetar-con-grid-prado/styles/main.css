@@ -1,0 +1,26 @@
+body {
+  height: 100vh;
+}
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 20% 60% 20%;
+}
+
+.item1 {
+  background-color: pink;
+  grid-column: span 12;
+  text-align: center;
+}
+.item2 {
+  background-color: purple;
+  grid-column: span 4;
+}
+.item3 {
+  background-color: rgb(185, 57, 100);
+  grid-column: span 8;
+}
+.item4 {
+  background-color: turquoise;
+  grid-column: span 12;
+}

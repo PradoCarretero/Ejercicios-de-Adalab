@@ -1,0 +1,36 @@
+.container {
+  border: 5px solid black;
+  padding: 5px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+  grid-template-rows: auto auto 3em;
+}
+
+.box1 {
+  border: rgb(207, 112, 24) 5px solid;
+  background-color: rgb(251, 233, 69);
+  color: black;
+}
+
+.box2 {
+  border: rgb(100, 13, 13) 5px solid;
+  background-color: red;
+  color: white;
+}
+
+.box3 {
+  border: rgb(16, 51, 10) 5px solid;
+  background-color: rgb(0, 255, 42);
+  color: black;
+  overflow: hidden;
+}
+
+.container__title {
+  grid-column: span3;
+  text-align: center;
+}
+
+.photo {
+  width: 100%;
+}

@@ -1,0 +1,35 @@
+@import "core/variables";
+@import "core/reset";
+@import "components/code";
+@import "components/links";
+@import "layout/header";
+@import "layout/footer";
+@import "pages/index";
+
+.wrapper {
+  height: 100vh;
+  width: 100%;
+  /* PRUEBA AMARILLO*/
+  background-color: rgb(231, 231, 42);
+}
+
+.text {
+  animation-name: index;
+  animation-duration: 5s;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+  /*  animation-name: index;
+  animation-SIISIduration: 5s;
+  animation-iteration-count: 1;
+  animation-timing-function: linear; */
+}
+@keyframes index {
+  0% {
+    color: yellow;
+    transform: translateY(-300px);
+  }
+  100% {
+    color: red;
+    transform: translateY(50vh);
+  }
+}

@@ -1,0 +1,10 @@
+.article {
+  &__item {
+    border: solid 1px black;
+  }
+  &__itemtitle {
+    margin-bottom: 10px;
+    margin-top: 15px;
+    color: rgb(27, 12, 21);
+  }
+}

@@ -1,0 +1,53 @@
+@import "core/variables";
+@import "core/reset";
+@import "components/code";
+@import "components/links";
+/* @import "layout/page"; */
+@import "layout/header";
+@import "layout/footer";
+@import "pages/index";
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: teal;
+  height: 75px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  @media all and (min-width: $tablet) {
+    height: 100px;
+  }
+  @media all and (min-width: $mobile) {
+    height: 110px;
+  }
+}
+
+.main__section--1 {
+  height: 50vh;
+  background-color: rgb(188, 190, 186);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main__text {
+  width: 15rem;
+  height: fit-content;
+  font-family: $font-main;
+}
+
+.main__section--2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10em;
+}
+
+.main__button--1 {
+  background-color: red;
+  border-radius: 5px;
+  height: 45px;
+}
