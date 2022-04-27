@@ -1,0 +1,7 @@
+.hidden {
+  display: none;
+}
+
+.switched {
+  transform: rotate(180);
+}

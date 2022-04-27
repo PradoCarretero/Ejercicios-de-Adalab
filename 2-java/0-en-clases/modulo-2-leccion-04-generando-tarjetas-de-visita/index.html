@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="http://beta.adalab.es/resources/stylesheets/all.css"
+    />
+    <title>Lección 5: Eventos</title>
+  </head>
+
+  <body class="page">
+    <h1 class="title--big">Eventos</h1>
+    <main class="page col2">
+      <div>
+        <h2>Dime tu nombre y apellido</h2>
+        <form class="col2">
+          <input
+            class="js_name"
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Nombre..."
+          />
+          <input
+            class="js_lastname"
+            type="text"
+            name="lastname"
+            id="lastname"
+            placeholder="Apellidos..."
+          />
+          <input class="js_button" type="button" value="Generar" />
+        </form>
+      </div>
+
+      <div class="card">
+        <h4 class="card__title">Nombre completo</h4>
+        <div class="js_result"></div>
+      </div>
+
+      <section class="card cardPreview">
+        <h4 class="card__title js_title">Nombre</h4>
+        <p class="card__description js_last">Apellido</p>
+      </section>
+    </main>
+
+    <script src="./js/main.js"></script>
+  </body>
+</html>
